@@ -172,6 +172,7 @@ section{
 
 .contenuto{
     padding: 15px;
+    font-size: 1em;
 }
 .contenuto *{
     margin:15px 0px;
@@ -183,4 +184,30 @@ section{
 
 .slash{
     color:rgb(121, 120, 120);
+}
+
+.contenuto .btn{
+    text-align: center;
+    background-color: royalblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top:40px;
+}
+
+
+.btn a{
+    color: white;
+}
+
+.acquista_ora{
+    color: royalblue;
+}
+
+.righetta{
+    width:20%;
+}
+
+
+.checked i{
+    color:royalblue;
 }
