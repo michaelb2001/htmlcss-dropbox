@@ -186,7 +186,7 @@ section{
     color:rgb(121, 120, 120);
 }
 
-.contenuto .btn{
+.btn{
     text-align: center;
     background-color: royalblue;
     padding: 10px 20px;
@@ -214,4 +214,14 @@ section{
 .quattro{
     width: 100%;
     margin-top:40px;
+    padding:20px ;
+}
+.quattro .sinistra{
+    width:60%;
+    float: left;
+}
+
+.quattro .destra{
+    width: 30%;
+    float: right;
 }
