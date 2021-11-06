@@ -134,7 +134,7 @@ section{
 .container2{
     text-align: left;
     padding-top:200px;
-    width:50%;
+    width:60%;
     margin:auto;
 }
 
@@ -150,4 +150,37 @@ section{
 .check span{
     margin-right: 20px;
     font-size:1.3em;
+}
+
+
+.fx{
+    float:left;
+    width: 30%;
+    border: 1px solid black;
+
+}
+
+.uno,.due{
+    margin-right: 5%;
+}
+
+.icone{
+    text-align: center;
+    border-bottom:1px solid black;
+    padding: 15px;
+}
+
+.contenuto{
+    padding: 15px;
+}
+.contenuto *{
+    margin:15px 0px;
+}
+
+.str{
+    font-weight: bold;
+}
+
+.slash{
+    color:rgb(121, 120, 120);
 }
