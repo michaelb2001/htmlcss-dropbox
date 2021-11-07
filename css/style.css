@@ -214,7 +214,6 @@ section{
 .quattro{
     width: 100%;
     margin-top:40px;
-    padding:20px ;
 }
 .quattro .sinistra{
     width:60%;
@@ -224,4 +223,29 @@ section{
 .quattro .destra{
     width: 30%;
     float: right;
+}
+
+.quattro .sinistra,.quattro .destra{
+    padding: 20px;
+}
+
+.imgsx{
+    margin-top: 40px;
+    padding:40px 20px;
+}
+.imgsx .sinistra{
+    float:left;
+}
+
+.imgsx .destra{
+    float:right;
+}
+
+.imgsx .sinistra,
+.imgsx .destra{
+    width:45%;
+}
+
+.imgsx .sinistra img{
+    width: 100%;
 }
