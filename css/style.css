@@ -18,6 +18,9 @@ header{
     line-height: 50px;
 }
 
+h3{
+    font-size: 1.8em;
+}
 a{
     text-decoration: none;
     color: black;
@@ -30,8 +33,6 @@ ul{
 .container{
     width: 90%;
     margin: auto;
-    display: flex;
-    align-items: center;
     font-size: 1em;
 }
 
@@ -69,6 +70,13 @@ nav.list ul li img{
     width:10%;
 }
 
+.sinistra{
+    float: left;
+}
+
+.destra{
+    float: right;
+}
 .btn{
     color: white;
     background-color: royalblue;
@@ -213,7 +221,7 @@ section{
 }
 .quattro{
     width: 100%;
-    margin-top:40px;
+    margin:40px 0px;
 }
 .quattro .sinistra{
     width:60%;
@@ -229,23 +237,41 @@ section{
     padding: 20px;
 }
 
-.imgsx{
-    margin-top: 40px;
-    padding:40px 20px;
-}
+
 .imgsx .sinistra{
     float:left;
 }
 
 .imgsx .destra{
     float:right;
+    padding:20px;
 }
 
 .imgsx .sinistra,
 .imgsx .destra{
-    width:45%;
+    width:50%;
 }
 
 .imgsx .sinistra img{
     width: 100%;
 }
+
+.imgsx .destra h3{
+    font-size:1.8em;
+}
+
+.imgsx .destra h3,
+.imgsx .destra p{
+    margin:40px 0px;
+}
+
+.imgsx .destra a{
+    margin-top: 40px;
+    padding:10px 15px;
+    border: 1px solid black;
+}
+
+.imgsx{
+    margin-bottom: 40px;
+}
+
