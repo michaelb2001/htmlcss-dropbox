@@ -113,7 +113,6 @@ section{
 
 .float .dx{
     width:65%;
-    position: relative;
     float: right;
 
 }
@@ -135,8 +134,8 @@ section{
 
 .maxi-banner .dx img{
     width: 85%;
-    position: absolute;
-    top:20px;
+    position: relative;
+    top:100px;
 }
 
 .container2{
@@ -358,6 +357,10 @@ img{
 .primi_quad .three img,
 .primi_quad .four img{
     width:100%;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 
 .primi_quad .one{
@@ -418,6 +421,11 @@ img{
 .secondi_quad .three img,
 .secondi_quad .four img{
     width:100%;
+    position: relative;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
 }
 
 .secondi_quad .one{
