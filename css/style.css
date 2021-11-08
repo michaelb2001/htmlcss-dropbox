@@ -448,3 +448,40 @@ img{
     border:10px solid yellow;
 }
 
+.foot{
+    background-color: rgb(183, 255, 255);
+}
+
+.container4{
+    width:75%;
+    margin:auto;
+    margin-bottom:40px;
+}
+
+.container4 h2{
+    font-size:2.3em;
+    color: brown;
+}
+.foot .one{
+    float:left;
+    margin:40px;
+}
+
+.foot .two{
+    float: right;
+    margin:40px;
+}
+
+.foot{
+    padding:40px;
+}
+
+.foot .two a{
+    padding:10px 40px;
+    background-color: white;
+}
+
+.answer{
+    display: none;
+}
+
